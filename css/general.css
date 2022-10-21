@@ -13,6 +13,7 @@ Bold: 700
 default: 1
 Small: 1.05
 Medium: 1.2
+Big: 1.8 (steps)
 Paragraph default: 1.6
 
 Letter-spacing: -0.5px, 0.75px;
@@ -22,18 +23,19 @@ Letter-spacing: -0.5px, 0.75px;
 Primary: #e67e22
 Tints: #fdf2e9 (bc)
 Shades: #cf711f
-Accents: 
-Grays: #555,  #333;
+Accents: #69db7c (tags)
+Grays: #555 (text),  #333 (heading), #ddd (number), #999
 
 
 ---03, 04 Img, icons
 
 ---05 Shades: 
 
----06 Border radius
+---06 Border radius: 9px, 11px
 
 --07 Whitespaces
-
+Between sections: 96 px, 
+32px, 24px
 -SPACING SYSTEM (px)
  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
@@ -146,4 +148,8 @@ html {
 }
 .margin-right-sm {
   margin-right: 1.6rem !important ;
+}
+
+strong {
+  font-weight: 500;
 }

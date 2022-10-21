@@ -38,7 +38,7 @@ Receive meals at convenient time: Best chefs in town will cook your selected mea
 ### Omnifood works with any diet
 
 Vegetarian
-Vegan
+Vegetarian
 Pescatarian
 Gluten-free
 Lactose-free
