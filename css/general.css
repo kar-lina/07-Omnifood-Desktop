@@ -21,8 +21,10 @@ Letter-spacing: -0.5px, 0.75px;
 ---02 Coloros 
 
 Primary: #e67e22
-Tints: #fdf2e9 (bc)
-Shades: #cf711f
+Tints: #fdf2e9 (bc) #fdf2e9
+Shades: 
+#cf711f
+#45260a;
 Accents: #69db7c (tags)
 Grays: #555 (text),  #333 (heading), #ddd (number), #999, #6f6f6f(litest grey allowed in bc)
 
@@ -87,6 +89,7 @@ html {
   margin: 0 auto;
   padding: 0 3.2rem;
 }
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -101,7 +104,14 @@ html {
     Put transition priperty on  original state  */
   /* all = background-color and color */
   transition: all 0.3s;
+
+  /* for .btn */
+  border: none;
+  font-family: inherit;
+  color: inherit;
+  cursor: pointer;
 }
+
 .btn--full:link,
 .btn--full:visited {
   background-color: #e67e22;
@@ -184,6 +194,10 @@ html {
   height: 3rem;
   width: 3rem;
   color: #e67e22;
+}
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(176, 92, 18, 0.5);
 }
 /* HELPER STYLES */
 .margin-right-sm {
