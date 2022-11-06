@@ -298,20 +298,7 @@
   gap: 1.6rem;
   align-items: center;
 }
-@media (max-width: 1200px) {
-  .gallery {
-    padding: 1.6rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.6rem;
-    align-items: center;
-  }
-  .testimonials {
-    grid-template-columns: 1fr;
-    row-gap: 4.8rem;
-    column-gap: 8rem;
-  }
-}
+
 .gallery-item {
   overflow: hidden;
 }
