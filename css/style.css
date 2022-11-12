@@ -2,6 +2,7 @@
 /* HEADER */
 /********************************/
 .header {
+  position: relative;
   display: flex;
   height: 9.6rem;
   justify-content: space-between;
@@ -45,6 +46,21 @@
 .main-nav-link.nav-cta:active {
   background-color: #cf711f;
 }
+/* MOBILE */
+.btn-mobile-nav {
+  border: none;
+  background-color: transparent;
+
+  display: none;
+}
+.icon-mobile-nav {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
 /********************************/
 /* HERO SECTION */
 /********************************/

@@ -54,12 +54,16 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  /* it only works if there is noting positioned 
+  absolutely in relation to body */
+  overflow-x: hidden;
 }
 html {
   /* font-size: 10px; */
   /* 10px / 16 px = 0.625 */
   /* Persantage of user's browser font size settings. We count with user's default settings  */
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 /********************************/
 /* GENERAL REUSABLE COMPONENTS */
