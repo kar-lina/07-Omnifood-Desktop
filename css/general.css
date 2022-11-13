@@ -220,3 +220,6 @@ html {
 strong {
   font-weight: 500;
 }
+.section-padding {
+  padding: 9.6rem;
+}
