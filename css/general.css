@@ -64,6 +64,7 @@ html {
   /* Persantage of user's browser font size settings. We count with user's default settings  */
   font-size: 62.5%;
   overflow-x: hidden;
+  /* scroll-behavior: smooth; */
 }
 /********************************/
 /* GENERAL REUSABLE COMPONENTS */
