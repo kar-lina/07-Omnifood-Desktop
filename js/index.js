@@ -15,6 +15,29 @@ const header = document.querySelector(".header");
 const navBtn = document.querySelector(".btn-mobile-nav");
 navBtn.addEventListener("click", showMenu);
 
+// Sticky header
+
+const sectionHearderEl = document.querySelector(".section-hero");
+
+const obs = new IntersectionObserver(
+  function (entries) {
+    const ent = entries[0];
+    if (!ent.isIntersecting) {
+      document.body.classList.add("sticky");
+    }
+    if (ent.isIntersecting) {
+      document.body.classList.remove("sticky");
+    }
+    console.log(entries);
+  },
+  {
+    root: null, // fot the viewport
+    threshold: 0,
+    rootMargin: "-80px",
+  }
+);
+obs.observe(sectionHearderEl);
+
 //////////////////////////////////////////////////
 // Smooth scrolling
 const allLinks = document.querySelectorAll("a");
